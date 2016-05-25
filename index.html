@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="Main">
+
+<head>
+
+	<title>Expleris</title>
+	<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="src/client/images/favic1.png" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+	<link href="src/client/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="src/client/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="src/client/css/jquery-logo-slider-ticker/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header ng-include src="'src/client/views/nav.html'"></header>
+
+	<article ng-view></article>  	
+
+   	<footer class="footer" ng-include src="'src/client/views/footer.html'"></footer>
+
+   		<!-- Scripts -->
+   		<!-- Misc -->
+ 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB1I6RL9dTVXQYrUIR3fUxXpsZ8DKjubM"></script>
+   		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+	    <script type="text/javascript" src="src/client/js/app.js"></script>
+
+	    <!-- Services -->
+	    <script type="text/javascript" src="src/client/js/services/brandsService.js"></script>
+	    <script type="text/javascript" src="src/client/js/services/newsService.js"></script>
+
+	    <!-- Controllers -->
+	    <script type="text/javascript" src="src/client/js/ctrls/brandsCtrl.js"></script>
+	    <script type="text/javascript" src="src/client/js/ctrls/brandCtrl.js"></script>
+	    <script type="text/javascript" src="src/client/js/ctrls/newsCtrl.js"></script>
+	    <script type="text/javascript" src="src/client/js/ctrls/eventCtrl.js"></script>
+	    <script type="text/javascript" src="src/client/js/ctrls/headerCtrl.js"></script>
+	    <script type="text/javascript" src="src/client/js/ctrls/homeCtrl.js"></script>
+	    <script type="text/javascript" src="src/admin/adminCtrl.js"></script> 
+
+	    <!-- Bootstrap and jQuery -->
+	    <script type="text/javascript" src="src/client/css/jquery/dist/jquery.js"></script>
+	    <script type="text/javascript" src="src/client/css/bootstrap/dist/js/bootstrap.js"></script>
+	    <script type="text/javascript" src="src/client/css/jquery/dist/jquery.min.js"></script>
+	    	    
+</body>
+
+</html>

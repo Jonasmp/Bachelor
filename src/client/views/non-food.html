@@ -1,0 +1,40 @@
+<div class="topic displaynone">
+	
+	<img src="src/client/images/ForJonasS.jpg" style="width: auto;" alt="foods and beverages" />
+
+</div>
+
+<div class="categoriesBackground">
+
+	<div class="container">
+
+		<h2>Non-food Products</h2>
+
+		<div class="line"></div>
+
+		<div class="categoriesContainer">
+			<div class="col-md-3"></div>
+			<ul>
+				<li>
+					<div ng-repeat="cat in nonfoodCategories" class="categoryItem">
+						<div class="foodcategoryImg">
+							<img ng-src="{{cat.img}}" alt="category image" />
+						</div>			
+						<h4>{{cat.category}}</h4>
+						<p>{{cat.desc}}</p>
+					</div>
+				</li>
+			</ul>
+
+			<div class="col-md-12 callToAction">
+				<h3>Interested in our product portfolio or have any questions?</h3>
+				<a ng-href="#contactUs"><h5>Contact Us</h5></a><h3>for more information.</h3>
+			</div>
+
+		
+		</div>		
+
+	</div>	
+
+</div>
+

@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"category": "Exquisit & Uniqueness",
+		"desc": "The finest and rarest products for special occasions! Here you will find some of our most exclusive coffees.",
+		"img": "src/client/images/ExquisitUnique.jpeg" 
+	},
+	{
+		"id": 2,
+		"category": "Specialty & Gourmet",
+		"desc": "Products for the demanding connoisseurs with a sophisticated and refined palate.",
+		"img": "src/client/images/SpecialtyGourmet.jpeg"
+	},
+	{
+		"id": 3,
+		"category": "Healthy & Organic",
+		"desc": "Selected super foods for healthy and organic lifestyles. Products in this category include vegan and gluten free foods.",
+		"img": "src/client/images/HealthyOrganic.jpeg"
+	},
+	{
+		"id": 4,
+		"category": "Premium Convenience",
+		"desc": "Products for the modern and busy metropolitans. Snack on the go or have a quick healthy meal!",
+		"img": "src/client/images/PremiumConvenient.jpeg"
+	}
+]

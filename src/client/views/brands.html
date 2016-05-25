@@ -1,0 +1,36 @@
+<div class="topic displaynone">
+	
+	<img src="src/client/images/TopBanner350.jpg" style="width: auto;" alt="foods and beverages" />
+
+</div>
+
+
+<h1>pik pik pik</h1>
+
+<div class="categoriesBackground">
+
+	<div class="container">
+
+		<h2 style="text-align: left; margin-left: 3%;">Food & Beverages</h2>
+
+		<div class="categoriesContainer">
+			<ul>
+				<li>
+					<div ng-repeat="cat in foodCategories" class="categoryItem">
+						<div class="foodcategoryImg">
+							<img ng-src="{{cat.img}}" alt="category image" />
+						</div>			
+						<h4>{{cat.category}}</h4>
+						<p>{{cat.desc}}</p>
+					</div>
+				</li>
+			</ul>
+
+			<div class="col-md-12" ng-include src="'src/client/css/jquery-logo-slider-ticker/index.html'"></div>
+		
+		</div>		
+
+	</div>	
+
+</div>
+
